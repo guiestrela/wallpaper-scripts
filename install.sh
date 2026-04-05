@@ -112,10 +112,8 @@ install_waybar_style() {
     backup_file "$WAYBAR_STYLE"
     echo "" >> "$WAYBAR_STYLE"
     echo "#custom-wallpaper {" >> "$WAYBAR_STYLE"
-    echo "    color: @accent;" >> "$WAYBAR_STYLE"
-    echo "    border: 1px solid @accent;" >> "$WAYBAR_STYLE"
-    echo "    border-radius: 4px;" >> "$WAYBAR_STYLE"
-    echo "    padding: 0 8px;" >> "$WAYBAR_STYLE"
+    echo "    padding: 0 6px;" >> "$WAYBAR_STYLE"
+    echo "    min-width: 16px;" >> "$WAYBAR_STYLE"
     echo "}" >> "$WAYBAR_STYLE"
     log "added wallpaper styling to waybar style.css"
 }

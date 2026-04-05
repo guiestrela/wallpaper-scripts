@@ -76,10 +76,9 @@ exec-once = bash -lc '~/.local/share/omarchy/scripts/dynamic-wallpaper.sh 300 >/
 4. Add Waybar styling (`~/.config/waybar/style.css`):
 ```css
 #custom-wallpaper {
-    color: @accent;
-    border: 1px solid @accent;
-    border-radius: 4px;
-    padding: 0 8px;
+    /* Keep it generic so it matches Omarchy's default module styling */
+    padding: 0 6px;
+    min-width: 16px;
 }
 ```
 
