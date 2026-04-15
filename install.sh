@@ -96,6 +96,7 @@ install_waybar_config() {
     echo '    }'
 }
 
+
 install_waybar_style() {
     local marker="custom-wallpaper"
 
